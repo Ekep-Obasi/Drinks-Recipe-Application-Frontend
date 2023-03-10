@@ -13,10 +13,6 @@ const StyledWrapper = styled.div`
   h2 {
     font-family: "Arvo", serif;
   }
-
-  h1 {
-    font-family: "Dancing Script", cursive;
-  }
 `;
 
 const StyledForm = styled.form`
@@ -24,7 +20,7 @@ const StyledForm = styled.form`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -32,6 +28,12 @@ const StyledForm = styled.form`
   padding: 25px;
   margin: 25px 0;
   border-radius: 8px;
+
+  h3 {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
 
   label {
     font: 200;
